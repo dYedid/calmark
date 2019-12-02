@@ -51,7 +51,7 @@ class App extends Component {
           <Input sc={this.stateChanger} />
           <Delete sc={this.stateChanger} />
         </div>
-        <Output info={this.state.output} />
+        <Output info={this.state} />
       </div>
     );
   }
